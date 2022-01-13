@@ -8,6 +8,7 @@ import { UserListComponent } from './user-list/user-list.component';
 import { FilterPipe } from './pipe/filter.pipe';
 import { SorterPipe } from './pipe/sorter.pipe';
 import { IconComponent } from './common/icon/icon.component';
+import { ActionButtonComponent } from './common/action-button/action-button.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { IconComponent } from './common/icon/icon.component';
     FilterPipe,
     SorterPipe,
     IconComponent,
+    ActionButtonComponent,
   ],
   imports: [
     BrowserModule,

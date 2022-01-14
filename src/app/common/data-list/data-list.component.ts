@@ -19,7 +19,7 @@ export class DataListComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  dataRow!: User;
+  dataRow: User = new User();
 
   onSelectClick(user: User): void {
     this.dataRow = user
